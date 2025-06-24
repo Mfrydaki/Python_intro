@@ -35,3 +35,7 @@ last_num = int(str_num[-1])
 result = first_num + last_num
 print()
 print(result)
+
+#or
+
+print(f"Result = {int(str_num[0]) + int(str_num[-1])}")
