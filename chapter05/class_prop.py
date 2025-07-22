@@ -1,6 +1,6 @@
 class Person:
     def __init__(self, name):
-        self.name = name
+        self._name = name
         
 
     def get_name(self):
@@ -13,7 +13,7 @@ class Person:
         if not isinstance(value, str):
             raise ValueError("Name must be string")
         print("Setting name..")
-        self.name = value
+        self._name = value
     
     def del_name(self):
         print("Deleting name...")
