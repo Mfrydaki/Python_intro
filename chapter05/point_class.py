@@ -41,7 +41,7 @@ class Point:
         self.__y = value
     
 def do_add(a,b):
-    return a +b
+    return a + b
 
 def main():
     p1 = Point(1, 2)
